@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body onload="onLoad()">
+        
+        <div class="container">
+            <input class="editbox" type="text" id="Search" placeholder="Server name">
+
+            <input class="checkbox" type="checkbox" id="checkbox" name="checkbox" checked>
+            <label for="checkbox">Show server versions</label>
+            <input class="checkbox" type="checkbox" id="checkbox2" name="checkbox2" checked>
+            <label for="checkbox2">Show empty servers</label>
+            <input class="checkbox" type="checkbox" id="checkbox3" name="checkbox3" checked>
+            <label for="checkbox3">Show passworded servers</label>
+            
+            <label for="sort-by" style="margin: 9px;">Sort by:</label>
+            <select name="sort-by" id="sort-by">
+                <option value="A-Z">Server name A-Z</option>
+                <option value="Z-A">Server name Z-A</option>
+                <option value="ascending">Players descending</option>
+                <option value="descending">Players ascending</option>
+            </select>
+            
+            <ul class="List" id="ServerList"></ul>
+        </div>
+    </body>
+</html>

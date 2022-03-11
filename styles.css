@@ -1,0 +1,99 @@
+.container {
+    margin: auto;
+    margin-top: 8px;
+    max-width: 1900px;
+}
+
+.editbox {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 24px;
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    border: 0px solid rgb(0,0,0);
+    box-shadow: 0px 0px 14px 0px rgba(66, 68, 90, 0.3);
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+    background-position-x: 95%;
+    color: rgb(0,0,0);
+
+    transition: 0.3s;
+}
+
+.editbox::placeholder {
+    color: rgb(172, 172, 172);
+    transition: 0.3s;
+}
+
+.editbox:focus::placeholder {
+    color: rgb(84, 84, 84);
+}
+
+.editbox:focus {
+    box-shadow: 0px 0px 14px 0px rgba(66, 68, 90, 0.4);
+    background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+    background-position-x: 95%;
+}
+
+.List {
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    border: 0px solid rgb(0,0,0);
+    color: rgb(0,0,0);
+
+    transition: 0.3s;
+}
+
+.ServerItem {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 4px;
+    margin-bottom: 3px;
+    padding: 2px;
+    padding-left: 5px;
+    box-shadow: 0px 0px 14px 0px rgba(66, 68, 90, 0.4);
+    transition: 0.2s;
+}
+
+.ServerItem:hover {
+    border: 1px solid rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 14px 0px rgba(66, 68, 90, 0.8);
+}
+
+.itemText {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.Hidden {
+    display: none;
+}
+
+.checkbox {
+    font-family: arial;
+    display: inline-block;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.connect {
+    width: 5%;
+}
