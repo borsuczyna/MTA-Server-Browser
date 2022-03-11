@@ -1,4 +1,4 @@
-# MTA-Server-Browser
+# MTA Server Browser
 Simple MTA Server Browser written in JavaScript.
 
 # Usage
